@@ -1,0 +1,10 @@
+<video  width="950" height="580" autoplay id="myVideo" loop controls>
+    <source type="video/mp4">
+</video>
+<script>
+    let vid = document.getElementById("myVideo");
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('video');
+    vid.src = '../content/video/' + myParam + '.mp4';
+    vid.load();
+</script>

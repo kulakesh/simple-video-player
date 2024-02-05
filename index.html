@@ -1,0 +1,302 @@
+<link href="asset/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="asset/js/jquery-1.11.1.min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+<script src="asset/js/lightboxjs.min.js"></script>
+<link rel="stylesheet" href="asset/css/lightboxjs.min.css" type="text/css" />
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!DOCTYPE html><html class=''>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet prefetch' href='asset/css/normalize.min.css'>
+    <link rel='stylesheet prefetch' href='asset/font/icon.css'>
+    <style class="cp-pen-styles">@import url("asset/font/family.css");
+    body {
+    height: 100%;
+    width: 100%;
+    background: #e9e9e9;
+    font-family: 'Arimo', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #010b26;
+    /* transform: scale(.7); */
+    }
+
+    * {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    }
+
+    .intro {
+    text-align: center;
+    }
+
+    ul {
+    list-style-type: none;
+    }
+
+    h1, h2, h3, h4, h5, p {
+    font-weight: 400;
+    }
+
+    a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+    a:hover {
+    color: #6ABCEA;
+    }
+
+    .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    }
+
+    .movie-card {
+    background: #ffffff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    }
+
+    .movie-header {
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+    .banner1 {
+    background: url("content/banner/banner1.jpg");
+    background-size: cover;
+    }
+
+    .banner2 {
+    background: url("content/banner/banner2.jpg");
+    background-size: cover;
+    }
+    .banner3 {
+    background: url("content/banner/banner3.jpg");
+    background-size: cover;
+    }
+    .banner4 {
+    background: url("content/banner/banner4.jpg");
+    background-size: cover;
+    }
+    .banner5 {
+    background: url("content/banner/banner5.jpg");
+    background-size: cover;
+    }
+    .banner6 {
+    background: url("content/banner/banner6.jpg");
+    background-size: cover;
+    }
+
+    .header-icon-container {
+    position: relative;
+    }
+
+    .header-icon {
+    width: 100%;
+    height: 367px;
+    line-height: 367px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 54px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+    opacity: .85;
+    }
+
+    .header-icon:hover {
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 74px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    }
+
+    .movie-card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .movie-content {
+    padding: 18px 18px 18px 18px;
+    margin: 0;
+    }
+
+    .movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+    }
+
+    .movie-title {
+    font-size: 24px;
+    margin: 0;
+    display: table-cell;
+    }
+
+    @media screen and (max-width: 500px) {
+    .movie-card {
+        width: 95%;
+        max-width: 95%;
+        margin: 1em;
+        display: block;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    }
+</style>
+</head>
+<body>	
+<div class="container">
+
+	
+	<div class="movie-card">
+		<div class="movie-header banner1">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video1" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video1" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title1" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+	
+	<div class="movie-card">
+		<div class="movie-header banner2">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video2" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video2" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title2" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+
+    <div class="movie-card">
+		<div class="movie-header banner3">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video3" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video3" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title3" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+
+    <div class="movie-card">
+		<div class="movie-header banner4">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video4" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video4" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title4" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+
+
+    <div class="movie-card">
+		<div class="movie-header banner5">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video5" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video5" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title5" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+
+
+    <div class="movie-card">
+		<div class="movie-header banner6">
+			<div class="header-icon-container">
+				<a  href="asset/video.html?video=video6" class="lightboxjs-link" data-width="1000" data-height="600">
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a  href="asset/video.html?video=video6" class="lightboxjs-link" data-width="1000" data-height="600">
+					<h3 id="title6" class="movie-title"></h3>
+				</a>
+			</div>
+			
+		</div><!--movie-content-->
+	</div><!--movie-card-->
+	
+      
+</div><!--container-->
+
+</body></html>
+<script src="content/title.js"></script>
+<script>
+    let i = 1;
+    titles.forEach(element => {
+        $('#title'+i).html(element);
+        i++;
+    });
+    
+
+</script>
